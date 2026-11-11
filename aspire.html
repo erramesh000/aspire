@@ -18,6 +18,9 @@
 </head>
 
 <body>
+  <div class="brand-cursor" aria-hidden="true">
+    <img src="./image/aspire.jpg" alt="" />
+  </div>
   <header>
     <div class="wrap">
       <nav aria-label="Main navigation">
@@ -51,6 +54,87 @@
             <strong>$85 per lesson</strong>
             <span>Contact Gaurav to check availability</span>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lesson-showcase" aria-label="Driving lessons and course options">
+      <div class="wrap lesson-wrap">
+        <div class="lesson-grid">
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=900&q=80"
+              alt="Driving lesson in Canberra" />
+            <div class="lesson-content">
+              <h3>Driving Lessons in<br />Canberra ACT (Automatic)</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=80"
+              alt="Learner preparing for a driving test" />
+            <div class="lesson-content">
+              <h3>Driving Test Preparation<br />Canberra ACT</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80"
+              alt="Car driving at sunset" />
+            <div class="lesson-content">
+              <h3>Overseas Licence<br />Conversion<br />ACT</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80"
+              alt="Refresher driving lesson" />
+            <div class="lesson-content">
+              <h3>Refresher Driving Lessons<br />Canberra</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=900&q=80"
+              alt="Learner driver training sign" />
+            <div class="lesson-content">
+              <h3>Learner Driver<br />Training <br />ACT</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=900&q=80"
+              alt="Driving logbook training" />
+            <div class="lesson-content">
+              <h3>Logbook Driving Training<br />Canberra</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=900&q=80"
+              alt="Automatic driving lesson in a dual control car" />
+            <div class="lesson-content">
+              <h3>Automatic Driving Lessons<br />(Dual Control Car)</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=900&q=80"
+              alt="Private driving lesson in Canberra" />
+            <div class="lesson-content">
+              <h3>Private Driving <br />Lessons<br />Canberra</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
+          <article class="lesson-card">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=900&q=80"
+              alt="Weekend driving lesson poster" />
+            <div class="lesson-content">
+              <h3>Weekend Driving<br />Lessons<br />ACT</h3>
+              <a href="#book" class="lesson-link"><span class="lesson-button-label">Book Now</span> </a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -241,124 +325,154 @@
         </div>
       </div>
     </section>
-    </main>
-    <footer>
-      <div class="wrap foot"><strong>ASPIRE DRIVING SCHOOL · GAURAV ARORA</strong><a href="#languages">Languages ·
-          English, Hindi &amp; Punjabi</a><span>Driving lessons across Canberra, Australian Capital Territory</span><a
-          href="https://www.instagram.com/aspiredrivingschool.au/" target="_blank" rel="noopener noreferrer">Instagram ·
-          @aspiredrivingschool.au</a><a href="https://youtube.com/@aspiredrivingschool-r8o?si=6Uh-ABT2wEe47NoY"
-          target="_blank" rel="noopener noreferrer">YouTube · Aspire Driving School</a><span>© <span id="year"></span>
-          Aspire Driving School</span></div>
-    </footer>
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-    <script>
-      /*
-        SETUP REQUIRED:
-        Deploy the companion Google Apps Script as a Web App, then paste its URL below.
-        Until that URL is configured, the form will clearly tell the site owner rather than
-        falsely claiming that a booking was saved centrally.
-      */
-      const ASPIRE_BOOKING_ENDPOINT = "https://script.google.com/macros/s/AKfycbzYVmCTk0jBE4ItdW9WtgfqyyZN4rxrcNzJBnf0KMr3966kD0MTFu-EI2ejwIcex2jg/exec";
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-row footer-row-top">
+        <div class="footer-brand-wrap">
+          <span class="footer-brand">ASPIRE DRIVING SCHOOL · GAURAV ARORA</span>
+        </div>
+        <div class="footer-meta-wrap">
+          <span class="footer-meta">Languages · English, Hindi &amp; Punjabi</span>
+          <span class="footer-meta">Driving lessons across Canberra, Australian Capital Territory</span>
+          <a href="https://www.instagram.com/aspiredrivingschool.au/" target="_blank"
+            rel="noopener noreferrer">Instagram · @aspiredrivingschool.au</a>
+        </div>
+      </div>
 
-      document.addEventListener("DOMContentLoaded", function () {
-        const form = document.getElementById("aspire-booking-form");
-        if (!form) return;
-        const contactSelect = form.querySelector('[name="contactPreference"]');
-        const emailInput = form.querySelector('[name="customerEmail"]');
-        const instagramInput = form.querySelector('[name="instagramHandle"]');
-        function updateContactFields() {
-          if (emailInput) emailInput.required = contactSelect && contactSelect.value === "Email";
-          if (instagramInput) instagramInput.required = contactSelect && contactSelect.value === "Instagram DM";
-        }
-        if (contactSelect) {
-          contactSelect.addEventListener("change", updateContactFields);
-          updateContactFields();
-        }
-        let status = form.querySelector(".booking-save-status");
-        if (!status) {
-          status = document.createElement("p");
-          status.className = "booking-save-status";
-          status.setAttribute("role", "status");
-          status.setAttribute("aria-live", "polite");
-          status.style.cssText = "margin-top:12px;padding:12px 14px;border-radius:6px;font-weight:700;display:none";
-          form.appendChild(status);
-        }
+      <div class="footer-row footer-row-bottom">
+        <a href="https://youtube.com/@aspiredrivingschool-r8o?si=6Uh-ABT2wEe47NoY" target="_blank"
+          rel="noopener noreferrer">YouTube · Aspire Driving School</a>
+        <span>© <span id="year"></span> Aspire Driving School</span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const brandCursor = document.querySelector('.brand-cursor');
 
-        form.addEventListener("submit", async function (event) {
-          event.preventDefault();
-          if (!form.reportValidity()) return;
-
-          const button = form.querySelector('button[type="submit"]');
-          const data = new FormData(form);
-          const booking = {
-            name: (data.get("name") || "").toString().trim(),
-            phone: (data.get("phone") || "").toString().trim(),
-            email: (data.get("customerEmail") || "").toString().trim(),
-            instagramHandle: (data.get("instagramHandle") || "").toString().trim(),
-            lesson: (data.get("lesson") || "").toString(),
-            day: (data.get("day") || "").toString(),
-            time: (data.get("time") || "").toString(),
-            notes: (data.get("notes") || "").toString(),
-            contactPreference: (data.get("contactPreference") || "").toString(),
-            submittedAt: new Date().toISOString(),
-            source: "Aspire Driving School website"
-          };
-
-          if (ASPIRE_BOOKING_ENDPOINT === "PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE") {
-            status.textContent = "The form is ready, but it is not connected to Gaurav yet. The website owner must finish the one-time Google Apps Script setup before requests can be delivered. No message has been sent.";
-            status.style.background = "#fff4d6";
-            status.style.color = "#704d00";
-            status.style.display = "block";
-            return;
-          }
-
-          button.disabled = true;
-          const originalText = button.textContent;
-          button.textContent = "Submitting…";
-          status.style.display = "none";
-
-          try {
-            /*
-             * Apps Script web apps commonly do not support CORS response reads from a static
-             * site. no-cors allows sending the form payload, but the browser cannot verify
-             * the server response. The UI therefore says "sent" only after fetch resolves.
-             */
-            await fetch(ASPIRE_BOOKING_ENDPOINT, {
-              method: "POST",
-              mode: "no-cors",
-              headers: { "Content-Type": "text/plain;charset=utf-8" },
-              body: JSON.stringify(booking)
-            });
-            form.reset();
-            status.textContent = "Thanks! Your request has been sent from this page. Gaurav will follow up using your chosen contact method. This is a request, not a confirmed lesson.";
-            status.style.background = "#e8f7ee";
-            status.style.color = "#14532d";
-            status.style.display = "block";
-          } catch (error) {
-            status.textContent = "Sorry, we couldn't send your request. Please try again in a moment or contact Aspire Driving School directly.";
-            status.style.background = "#fff4d6";
-            status.style.color = "#704d00";
-            status.style.display = "block";
-          } finally {
-            button.disabled = false;
-            button.textContent = originalText;
-          }
-        });
+    if (brandCursor && window.matchMedia('(pointer: fine)').matches) {
+      document.addEventListener('pointermove', (event) => {
+        brandCursor.style.left = `${event.clientX}px`;
+        brandCursor.style.top = `${event.clientY}px`;
+        brandCursor.classList.add('visible');
       });
-    </script>
-    <script>
-      (function () {
-        const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        if (reduce || !('IntersectionObserver' in window)) return;
-        const nodes = document.querySelectorAll('main section .section-intro, main section .feature, main section .about-grid, main section .car-inner, main section .hour, main section .review-card, main section .contact-card, main section .pricebox, main section form');
-        if (!nodes.length) return;
-        const style = document.createElement('style');
-        style.textContent = '.aspire-reveal-ready{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.25,1)}.aspire-reveal-ready.aspire-revealed{opacity:1;transform:none}';
-        document.head.appendChild(style);
-        const observer = new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('aspire-revealed'); observer.unobserve(entry.target) } }), { threshold: .08, rootMargin: '0px 0px -24px 0px' });
-        nodes.forEach(node => { node.classList.add('aspire-reveal-ready'); observer.observe(node) });
-      })();
-    </script>
+
+      document.addEventListener('pointerleave', () => brandCursor.classList.remove('visible'));
+      document.addEventListener('pointerenter', () => brandCursor.classList.add('visible'));
+      document.addEventListener('pointerdown', () => brandCursor.classList.add('pressed'));
+      document.addEventListener('pointerup', () => brandCursor.classList.remove('pressed'));
+    }
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script>
+    /*
+      SETUP REQUIRED:
+      Deploy the companion Google Apps Script as a Web App, then paste its URL below.
+      Until that URL is configured, the form will clearly tell the site owner rather than
+      falsely claiming that a booking was saved centrally.
+    */
+    const ASPIRE_BOOKING_ENDPOINT = "https://script.google.com/macros/s/AKfycbzYVmCTk0jBE4ItdW9WtgfqyyZN4rxrcNzJBnf0KMr3966kD0MTFu-EI2ejwIcex2jg/exec";
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("aspire-booking-form");
+      if (!form) return;
+      const contactSelect = form.querySelector('[name="contactPreference"]');
+      const emailInput = form.querySelector('[name="customerEmail"]');
+      const instagramInput = form.querySelector('[name="instagramHandle"]');
+      function updateContactFields() {
+        if (emailInput) emailInput.required = contactSelect && contactSelect.value === "Email";
+        if (instagramInput) instagramInput.required = contactSelect && contactSelect.value === "Instagram DM";
+      }
+      if (contactSelect) {
+        contactSelect.addEventListener("change", updateContactFields);
+        updateContactFields();
+      }
+      let status = form.querySelector(".booking-save-status");
+      if (!status) {
+        status = document.createElement("p");
+        status.className = "booking-save-status";
+        status.setAttribute("role", "status");
+        status.setAttribute("aria-live", "polite");
+        status.style.cssText = "margin-top:12px;padding:12px 14px;border-radius:6px;font-weight:700;display:none";
+        form.appendChild(status);
+      }
+
+      form.addEventListener("submit", async function (event) {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+
+        const button = form.querySelector('button[type="submit"]');
+        const data = new FormData(form);
+        const booking = {
+          name: (data.get("name") || "").toString().trim(),
+          phone: (data.get("phone") || "").toString().trim(),
+          email: (data.get("customerEmail") || "").toString().trim(),
+          instagramHandle: (data.get("instagramHandle") || "").toString().trim(),
+          lesson: (data.get("lesson") || "").toString(),
+          day: (data.get("day") || "").toString(),
+          time: (data.get("time") || "").toString(),
+          notes: (data.get("notes") || "").toString(),
+          contactPreference: (data.get("contactPreference") || "").toString(),
+          submittedAt: new Date().toISOString(),
+          source: "Aspire Driving School website"
+        };
+
+        if (ASPIRE_BOOKING_ENDPOINT === "PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE") {
+          status.textContent = "The form is ready, but it is not connected to Gaurav yet. The website owner must finish the one-time Google Apps Script setup before requests can be delivered. No message has been sent.";
+          status.style.background = "#fff4d6";
+          status.style.color = "#704d00";
+          status.style.display = "block";
+          return;
+        }
+
+        button.disabled = true;
+        const originalText = button.textContent;
+        button.textContent = "Submitting…";
+        status.style.display = "none";
+
+        try {
+          /*
+           * Apps Script web apps commonly do not support CORS response reads from a static
+           * site. no-cors allows sending the form payload, but the browser cannot verify
+           * the server response. The UI therefore says "sent" only after fetch resolves.
+           */
+          await fetch(ASPIRE_BOOKING_ENDPOINT, {
+            method: "POST",
+            mode: "no-cors",
+            headers: { "Content-Type": "text/plain;charset=utf-8" },
+            body: JSON.stringify(booking)
+          });
+          form.reset();
+          status.textContent = "Thanks! Your request has been sent from this page. Gaurav will follow up using your chosen contact method. This is a request, not a confirmed lesson.";
+          status.style.background = "#e8f7ee";
+          status.style.color = "#14532d";
+          status.style.display = "block";
+        } catch (error) {
+          status.textContent = "Sorry, we couldn't send your request. Please try again in a moment or contact Aspire Driving School directly.";
+          status.style.background = "#fff4d6";
+          status.style.color = "#704d00";
+          status.style.display = "block";
+        } finally {
+          button.disabled = false;
+          button.textContent = originalText;
+        }
+      });
+    });
+  </script>
+  <script>
+    (function () {
+      const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduce || !('IntersectionObserver' in window)) return;
+      const nodes = document.querySelectorAll('.hero-copy, .hero-visual, .lesson-card, .card, .about-grid, .review-card, .booking-form, .cta, .availability-card, .site-footer');
+      if (!nodes.length) return;
+      const style = document.createElement('style');
+      style.textContent = '.aspire-reveal-ready{opacity:0;transform:translateY(30px) scale(.98);filter:blur(2px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.25,1),filter .8s ease}.aspire-reveal-ready.aspire-revealed{opacity:1;transform:none;filter:none}';
+      document.head.appendChild(style);
+      const observer = new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('aspire-revealed'); observer.unobserve(entry.target) } }), { threshold: .12, rootMargin: '0px 0px -30px 0px' });
+      nodes.forEach(node => { node.classList.add('aspire-reveal-ready'); observer.observe(node) });
+    })();
+  </script>
 </body>
 
 </html>
