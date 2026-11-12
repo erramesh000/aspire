@@ -67,6 +67,7 @@ body * {
 }
 
 @media (pointer: coarse) {
+
     body,
     body * {
         cursor: auto
@@ -1362,6 +1363,10 @@ section:not(.hero) {
     transition: transform .25s, box-shadow .25s, border-color .25s
 }
 
+.cta.aspire-reveal-ready.aspire-revealed h2 {
+    color: #ffffff;
+}
+
 .card:hover,
 .photo-card:hover,
 .review-card:hover {
@@ -1537,7 +1542,8 @@ footer a:hover {
 
     .hero-visual:after {
         right: 0;
-        font-size: .6rem
+        font-size: .6rem;
+        display: none
     }
 
     .btn {
